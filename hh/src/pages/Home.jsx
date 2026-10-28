@@ -12,13 +12,13 @@ const Home = () => {
             to="/users"
             className="rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
           >
-            Пользователи (Users CRUD)
+            Users CRUD
           </Link>
           <Link
             to="/products"
             className="rounded-lg bg-slate-800 px-4 py-2 text-white hover:bg-slate-900"
           >
-            Товары (Products)
+             (Products)
           </Link>
           <button
             onClick={() => {
@@ -27,7 +27,7 @@ const Home = () => {
             }}
             className="rounded-lg bg-red-600 px-4 py-2 text-white hover:bg-red-700"
           >
-            Выйти (Logout)
+             (Logout)
           </button>
         </div>
       </div>
